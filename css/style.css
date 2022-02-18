@@ -15,21 +15,22 @@ body {
   background-color: var(--white-color);
   color: var(--contact-link-text-color);
 
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-a {
+.logo,
+.link {
   color: var(--link-text-color);
 
   text-decoration: none;
 }
-ul {
+.list {
   list-style: none;
 }
-address {
+.adr {
   font-style: normal;
 }
-button {
+.btn {
   font-family: inherit;
   border: none;
   cursor: pointer;
@@ -104,6 +105,7 @@ button {
 
 /* main */
 .title-section {
+  color: var(--link-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -139,6 +141,7 @@ button {
 /* section dignity */
 
 .dignity-title {
+  color: var(--link-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
